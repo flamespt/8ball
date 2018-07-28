@@ -1,6 +1,9 @@
 import random
 import re
+import time
 def ballgenerator():
+    print ("pensando na sua resposta")
+    time.sleep(random.randint(2,5))
     respostas= ['It is certain.','As I see it, yes.','Reply hazy, try again','Dont count on it.','It is decidedly so.']
     print(respostas[random.randint(0,respostas.__len__()-1)])
 
